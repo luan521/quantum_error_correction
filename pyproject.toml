@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "quantum-error-correction"
+version = "0.1.0"
+description = "Implementation of bit-flip, phase-flip, and Shor's code algorithms for quantum error correction."
+authors = ["Luan Costa <luanhcss@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+ipykernel = "^6.29.4"
+qiskit-ibm-runtime = "^0.23.0"
+matplotlib = "3.6"
+qiskit-aer = "^0.14.1"
+pylatexenc = "^2.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
